@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="provider8083" />
+        <module name="eureka-three" />
+        <module name="consummerfeign" />
+        <module name="zuul9002" />
+        <module name="eureka-two" />
+        <module name="eureka" />
+        <module name="consummer" />
+        <module name="provider8002" />
+        <module name="provider8001" />
+        <module name="dashbord9001" />
+        <module name="common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="consummer" target="1.8" />
+      <module name="consummerfeign" target="1.8" />
+      <module name="dashbord9001" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo1" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka-three" target="1.8" />
+      <module name="eureka-two" target="1.8" />
+      <module name="hystixdshbord9001" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="provider8001" target="1.8" />
+      <module name="provider8002" target="1.8" />
+      <module name="provider8083" target="1.8" />
+      <module name="zuul9002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="consummer" options="-parameters" />
+      <module name="consummerfeign" options="-parameters" />
+      <module name="dashbord9001" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo1" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eureka-three" options="-parameters" />
+      <module name="eureka-two" options="-parameters" />
+      <module name="hystixdshbord9001" options="-parameters" />
+      <module name="provider8001" options="-parameters" />
+      <module name="provider8002" options="-parameters" />
+      <module name="provider8083" options="-parameters" />
+      <module name="zuul9002" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+server:
+  port: 8081
+mybatis:
+#  type-aliases-package: com.clond.common.Entity
+  mapper-locations:
+    - classpath:mapper/*.xml
+  configuration:
+      map-underscore-to-camel-case: true
+spring:
+  application:
+    name: provider8001-Dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.75.48.9:32001/clond_two
+    username: root
+    password: 123456
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka,http://localhost:7001/eureka,http://localhost:7002/eureka

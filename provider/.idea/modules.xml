@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consummer/consummer.iml" filepath="$PROJECT_DIR$/consummer/consummer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consummerfeign/consummerfeign.iml" filepath="$PROJECT_DIR$/consummerfeign/consummerfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dashbord9001/dashbord9001.iml" filepath="$PROJECT_DIR$/dashbord9001/dashbord9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-three/eureka-three.iml" filepath="$PROJECT_DIR$/eureka-three/eureka-three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-two/eureka-two.iml" filepath="$PROJECT_DIR$/eureka-two/eureka-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider.iml" filepath="$PROJECT_DIR$/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider8001/provider8001.iml" filepath="$PROJECT_DIR$/provider8001/provider8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider8002/provider8002.iml" filepath="$PROJECT_DIR$/provider8002/provider8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider8083/provider8083.iml" filepath="$PROJECT_DIR$/provider8083/provider8083.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul9002/zuul9002.iml" filepath="$PROJECT_DIR$/zuul9002/zuul9002.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+server:
+  port: 7000
+eureka:
+  instance:
+    hostname: server1   #eureka服务器实例名称
+  client:
+    register-with-eureka: false   #是否注册自己
+    fetch-registry: false  #表示自己就是注册中心不需要检测自己
+    service-url:
+        defaultZone: http://server2:7001/eureka,http://server3:7002/eureka #指定客户端访问eureka服务器的地址
